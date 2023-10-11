@@ -10,6 +10,7 @@ use std::mem::swap;
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
+        println!("my_option is empty!")
     }
 
     let my_arr = &[
